@@ -16,6 +16,7 @@ export const siteConfig = {
   linkedinUrl: "https://www.linkedin.com/in/your-handle",
   cvUrl: "/cv.pdf", // put your CV in public/cv.pdf
   profileImage: "/profile.jpg", // save your photo as public/profile.jpg
+  url: "https://your-portfolio.vercel.app", // ← change to your real Vercel URL after deploy
   availability: "Open to 2026 internships & junior roles",
   about: `I'm Nyasha Moreblessing Samson, 23, born in Zimbabwe. I'm a 3rd-year Cybersecurity student at ZCAS University (2026) and did my high school at Christian Brothers College. I'm currently interning in the IT Department at Shearwater, Victoria Falls — a team specialising in software development and software security. My stack is ASP.NET, Angular, Python, JavaScript and C#, across front-end, back-end and databases, with a security-first mindset.`,
   quickFacts: [
