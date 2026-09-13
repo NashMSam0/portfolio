@@ -22,7 +22,7 @@ export default function ProfilePhoto() {
   return (
     <div className="overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/60">
       {failed ? (
-        <div className="grid aspect-square w-full place-items-center bg-gradient-to-br from-emerald-500/30 via-cyan-500/15 to-transparent">
+        <div className="grid aspect-[3/4] w-full place-items-center bg-gradient-to-br from-emerald-500/30 via-cyan-500/15 to-transparent">
           <div className="text-center">
             <p className="text-5xl font-extrabold text-white">{initials(siteConfig.name)}</p>
             <p className="mt-2 px-6 text-xs text-zinc-400">
@@ -36,7 +36,7 @@ export default function ProfilePhoto() {
         <img
           src={siteConfig.profileImage}
           alt={`${siteConfig.name} — profile photo`}
-          className="aspect-square w-full object-cover"
+          className="aspect-[3/4] w-full object-cover"
           onError={() => setFailed(true)}
         />
       )}
